@@ -1,6 +1,6 @@
 # Euclidean #
 
-This is the official manifest of EuclideanROM. About the branches, we named it [b]psoa[/b] which [i]psoa_r1[/i] is relative to kitkat and [i]psoa_r2[/i] is relative to lollipop.
+This is the official manifest of EuclideanROM. About the branches, we named it psoa which psoa_r1 is relative to kitkat and psoa_r2 is relative to lollipop.
 
 ## Downloading the source ##
 
