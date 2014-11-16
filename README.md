@@ -1,5 +1,7 @@
 # Euclidean #
 
+This is the official manifest of EuclideanROM. About the branches, we named it [b]psoa[/b] which [i]psoa_r1[/i] is relative to kitkat and [i]psoa_r2[/i] is relative to lollipop.
+
 ## Downloading the source ##
 
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
@@ -29,7 +31,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/EuclideanROM/platform_manifest -b psoa_r1
+$ repo init -u https://github.com/EuclideanROM/platform_manifest -b psoa_r2
 ```
 
 ### Downloading the source tree ###
