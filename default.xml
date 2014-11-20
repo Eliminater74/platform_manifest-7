@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android-review.googlesource.com/" />
   <remote  name="euclidean"
            fetch="git://github.com/EuclideanROM/" />
   <default revision="refs/tags/android-5.0.0_r7"
