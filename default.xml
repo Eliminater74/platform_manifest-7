@@ -5,6 +5,8 @@
            fetch="https://android-review.googlesource.com/" />
   <remote  name="euclidean"
            fetch="git://github.com/EuclideanROM/" />
+  <remote  name="rascarlo"
+           fetch="git://github.com/rascarlo/" />
   <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-j="4" />
@@ -523,4 +525,7 @@
   <!-- Euclidean Vendor Projects -->
   <project path="vendor/euclidean" name="platform_vendor_euclidean" remote="euclidean" revision="psoa_r2" />
   
+  <!-- Device vendor projects -->
+  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="lollipop-ras-mr1" />
+
 </manifest>
