@@ -519,6 +519,7 @@
 
   <!-- Euclidean Vendor Projects -->
   <project path="vendor/euclidean" name="platform_vendor_euclidean" remote="euclidean" revision="psoa_r2" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="euclidean" revision="psoa_r2" />
   
   <!-- Device vendor projects -->
   <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="lollipop-ras-mr1" />
