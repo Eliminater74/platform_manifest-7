@@ -521,7 +521,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Euclidean Vendor Projects -->
-  <project path="vendor/euclidean" name="platform_vendor_euclidean" remote="euclidean" revision="psoa_r2" />
+  <project path="vendor/euclidean" name="platform_vendor_euclidean" remote="euclidean" revision="psoa_r2" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="euclidean" revision="psoa_r2" />
   
   <!-- Device vendor projects -->
