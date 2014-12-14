@@ -79,7 +79,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="lp5.0" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
@@ -499,7 +499,7 @@
   
   <!--System and Tools -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="euclidean" revision="psoa_r2" />
-  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="euclidean" revision="psoa_r2" />
+  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -530,4 +530,6 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
 
+  <!-- Slim toolchain gcc and linaro -->
+  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="lp5.0" />
 </manifest>
