@@ -1,6 +1,6 @@
 # Euclidean #
 
-This is the official manifest of EuclideanROM. About the branches, we named it psoa which psoa_r1 is relative to kitkat and psoa_r2 is relative to lollipop.
+This is the official manifest of EuclideanROM.
 
 ## Downloading the source ##
 
@@ -53,4 +53,13 @@ where x is the number of jobs e.g. -j4 and -c syncs only the specified branch
 # Go to the root of the source tree...
 $ cd WORKSPACE
 $ ./rom-build.sh DEVICE
+```
+## NOTES ##
+
+We have pngcrusher tool. That will reduce the build size, but we'll have to install the following tools:
+
+```bash
+$ sudo apt-get install pngquant
+$ sudo apt-get install pngcrush
+$ sudo apt-get install optipng
 ```
