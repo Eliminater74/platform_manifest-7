@@ -51,7 +51,7 @@
   <!-- Nexus Device -->
   <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r2" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="device,hammerhead" remote="euclidean" revision="psoa_r2" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="rascarlo" revision="lollipop-ras-mr1" />
