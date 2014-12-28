@@ -57,10 +57,10 @@
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="rascarlo" revision="lollipop-ras-mr1" />
   
   <!-- Nexus Kernel -->
-  <project path="device/lge/hammerhead-kernel" name="franciscofranco/hammerhead" groups="device,hammerhead" remote="github" revision="lollipop" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
-  
+  <project path="kernel/lge/hammerhead" name="franciscofranco/hammerhead" groups="device,hammerhead" remote="github" revision="lollipop" />
+
   <!-- Extra Tools for Compiling -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
