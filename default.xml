@@ -47,6 +47,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
   
   <!-- Nexus Device -->
   <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="device,grouper" remote="euclidean" revision="psoa_r2" />
