@@ -292,7 +292,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   
   <!-- Frameworks for Android -->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="github" revision="cm-12.0" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="euclidean" revision="psoa_r2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
