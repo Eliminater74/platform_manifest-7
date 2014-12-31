@@ -57,10 +57,9 @@
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="rascarlo" revision="lollipop-ras-mr1" />
   
   <!-- Nexus Kernel -->
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
-  <!--project path="kernel/lge/hammerhead" name="Euphoria-OS/android_kernel_msm" groups="device,hammerhead" remote="github" revision="lollipop-hammerhead" /-->
+  <project path="kernel/lge/hammerhead" name="Euphoria-OS/android_kernel_msm" groups="device,hammerhead" remote="github" revision="lollipop-hammerhead" />
 
   <!-- Extra Tools for Compiling -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -530,7 +529,10 @@
   
   <!-- Device vendor projects -->
   <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="lollipop-ras-mr1" />
-  <project path="vendor/lge" name="lichti1901/android_vendor_lge" remote="github" revision="lollipop" />
+  <project path="vendor/lge" name="MrApocalypse/proprietary_vendor_lge" remote="github" revision="lp" />
+  <project path="vendor/qcom" name="MrApocalypse/proprietary_vendor_qcom" remote="github" revision="lp" />
+  <project path="vendor/broadcom" name="MrApocalypse/proprietary_vendor_broadcom" remote="github" revision="lp" />
+  <project path="device/qcom/common" name="MrApocalypse/device_qcom_common" remote="github" revision="lp" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="lp5.0" />
