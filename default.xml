@@ -383,14 +383,14 @@
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="github" revision="cm-12.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/Contacts" name="Euphoria-OS/android_packages_apps_Contacts" remote="github" revision="lollipop" />
+  <project path="packages/apps/ContactsCommon" name="Euphoria-OS/android_packages_apps_ContactsCommon" remote="github" reivision="lollipop" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="euclidean" revision="psoa_r2" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="euclidean" revision="psoa_r2" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-12.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
+  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="euclidean" revision="psoa_r2" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="Euphoria-OS/android_packages_apps_LockClock" remote="github" revision="lollipop" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
