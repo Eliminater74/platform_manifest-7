@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
   <remote name="github"
-           fetch="https://github.com/" />
+           fetch="git://github.com" />
   <remote  name="euclidean"
            fetch="git://github.com/EuclideanROM/" />
   <remote  name="rascarlo"
